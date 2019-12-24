@@ -4,4 +4,6 @@ This bar chart show population of the top 10 most populous countries. The data c
 
 To start:
  git run start
- 
+
+Preview:
+https://thmsng.github.io/learn-data-viz-with-d3js/
