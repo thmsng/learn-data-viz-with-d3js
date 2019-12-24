@@ -1,0 +1,47 @@
+{
+  "name": "learn-data-viz-with-d3js",
+  "version": "1.0.0",
+  "description": "using d3.js",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "beefy": "^2.1.8",
+    "d3": "^5.14.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0",
+    "concurrently": "^5.0.2",
+    "http-server": "^0.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "beefy d3.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thmsng/learn-data-viz-with-d3js.git"
+  },
+  "author": "Thomas Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thmsng/learn-data-viz-with-d3js/issues"
+  },
+  "homepage": "https://github.com/thmsng/learn-data-viz-with-d3js#readme",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "@babel/preset-env"
+          ]
+        }
+      ]
+    ]
+  }
+}
